@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-p{
+    width: 120px;
+}
+.menu{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.item:hover{
+color: blue;
+}
